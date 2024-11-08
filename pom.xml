@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.drucare</groupId>
 	<artifactId>billing</artifactId>
-	<version>1.0</version>
+	<version>0.0.1</version>
 	<name>drucare_project_1.1</name>
 	<description>java project</description>
 	<url/>
@@ -50,5 +50,11 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+    <repository>
+        <id>billing-releases-timestamp</id> <!-- Use the repository ID you've set in settings.xml -->
+        <url>http://18.61.91.106:8081/repository/billing-releases-timestamp</url>
+    </repository>
+</distributionManagement>
 
 </project>
