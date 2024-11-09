@@ -53,7 +53,7 @@
 	<distributionManagement>
     <repository>
         <id>billing-releases-timestamp</id> <!-- Use the repository ID you've set in settings.xml -->
-        <url>http://18.61.91.106:8081/repository/billing-releases-timestamp</url>
+        <url>http://18.61.65.162:8081/repository/billing-releases-timestamp/</url>
     </repository>
 </distributionManagement>
 
