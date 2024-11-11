@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class BillingController {
 	@GetMapping("/")
 	public String billing() {
-		return "Welcome to billing version One";
+		return "Welcome to billing version two";
 	}
 
 }
